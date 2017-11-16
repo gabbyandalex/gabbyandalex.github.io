@@ -263,41 +263,30 @@ body {
     width: 200%; 
     height: 200%;
 }
-@media screen and (max-width: 420px) {
-    #bg-image {
-        top: -50%;
-        left: -130%;
-        width: 200%;
-        height: 210%;
-    }
-}
-@media screen and (max-width: 375px) {
-    #bg-image {
-        top: -50%;
-        left: -155%;
-        width: 200%;
-        height: 210%;
-    }
-}
-@media screen and (max-width: 321px) {
-    #bg-image {
-        top: -50%;
-        left: -200%;
-        width: 200%;
-        height: 210%;
-    }
-}
 #bg-image img {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
-}
-
+    @media screen and (max-width: 420px) {
+        #bg-image {
+            top: -50%;
+            left: -130%;
+            width: 200%;
+            height: 210%;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        #bg-image {
+            top: -50%;
+            left: -155%;
+            width: 200%;
+            height: 210%;
+        }
+    }
+    @media screen and (max-width: 321px) {
+        #bg-image {
+            top: -50%;
+            left: -200%;
+            width: 200%;
+            height: 210%;
+        }
 #bg-container {
 
 }
